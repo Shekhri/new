@@ -36,9 +36,422 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 80px;
-  height: 100vh;
 }
 
 button {
   cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.header ul {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404040;
+  text-transform: uppercase;
+}
+
+.hero__img {
+  background-image: url("/assets/images/hero_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 391px;
+  padding: 0;
+}
+.hero__img h1 {
+  font-family: "Montserrat";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #Fff;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+.hero__img hr {
+  width: 80px;
+  height: 2px;
+  background-color: #Fff;
+  border: none;
+  margin-left: 430px;
+  margin-top: 30px;
+}
+.hero__img p {
+  font-family: "Vollkorn";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #Fff;
+  margin-top: 30px;
+}
+.hero__img img {
+  margin-top: 75px;
+  margin-left: 450px;
+}
+
+.hero__content {
+  background-color: #FEFEC9;
+  height: 289px;
+}
+.hero__content h3 {
+  font-family: "Vollkorn";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #47474f;
+  padding-top: 70px;
+}
+.hero__content button {
+  font-family: "Vollkorn";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #47474f;
+  width: 159px;
+  height: 53px;
+  background-color: transparent;
+  margin-left: 390px;
+  margin-top: 30px;
+}
+
+.thrive {
+  margin-top: 60px;
+}
+.thrive h2 {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+.thrive hr {
+  width: 80px;
+  height: 2px;
+  margin-left: 430px;
+  margin-top: 45px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: none;
+}
+.thrive .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+.thrive .card .box {
+  width: 319.98px;
+  height: 368px;
+}
+.thrive .card .box h3 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.thrive .card .box p {
+  font-family: "Vollkorn";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.project {
+  margin-top: 60px;
+  background-color: #F5F5F5;
+}
+.project .projects {
+  padding: 60px 0;
+}
+.project .projects h2 {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+.project .projects hr {
+  width: 80px;
+  height: 2px;
+  margin-left: 430px;
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: none;
+}
+.project .projects .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+.project .projects .card .box {
+  width: 299.98px;
+  height: 389.98px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.project .projects .card .box .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project .projects .card .box .text h3 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 19px;
+  text-transform: uppercase;
+}
+.project .projects .card .box .text p {
+  font-family: "Vollkorn";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 7px;
+}
+
+.team {
+  padding: 60px 0;
+}
+.team h2 {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+.team hr {
+  width: 80px;
+  height: 2px;
+  margin-left: 430px;
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: none;
+}
+.team .card {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team .card .box {
+  width: 240px;
+}
+.team .card .box h3 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.team .card .box p {
+  font-family: "Vollkorn";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 8px;
+}
+.team .card .box .icon {
+  margin-top: 10px;
+}
+
+.comment__bg {
+  margin-top: 60px;
+  background-color: #F5F5F5;
+}
+.comment__bg .comment {
+  padding-top: 60px;
+}
+.comment__bg .comment img:nth-child(1) {
+  margin-left: 439px;
+}
+.comment__bg .comment .center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding-bottom: 100px;
+}
+.comment__bg .comment .center hr {
+  width: 2px;
+  height: 215px;
+  background-color: #ababab;
+  border: none;
+}
+.comment__bg .comment .center p {
+  font-family: "Vollkorn";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333;
+}
+.comment__bg .comment .center img {
+  margin-left: 121px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.comment__bg .comment .center small {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ababab;
+  margin-top: 20px;
+  margin-left: 90px;
+  padding-top: 30px;
+}
+
+.footer__top--bg {
+  background-image: url("/assets/images/footer_top.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 517px;
+}
+.footer__top--bg .footer__top {
+  padding-top: 69px;
+}
+.footer__top--bg .footer__top h2 {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+.footer__top--bg .footer__top hr {
+  width: 80px;
+  height: 2px;
+  margin-left: 430px;
+  margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: none;
+}
+.footer__top--bg .footer__top .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+.footer__top--bg .footer__top .card .box {
+  width: 319.98px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__top--bg .footer__top .card .box h3 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
+}
+.footer__top--bg .footer__top .card .box p {
+  font-family: "Vollkorn";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #212121;
+  margin-top: 20px;
+}
+.footer__top--bg .footer__top .card .box li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+.footer__top--bg .footer__top .card .box a {
+  font-family: "Vollkorn";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #212121;
+}
+
+.footer--bg {
+  background-color: black;
+  padding: 60px 0;
+}
+.footer--bg .footer {
+  margin-left: 200px;
+  width: 564px;
+}
+.footer--bg .footer .form {
+  display: flex;
+  flex-direction: column;
+}
+.footer--bg .footer .form input {
+  width: 564px;
+}
+.footer--bg .footer .form img {
+  margin-left: 18px;
 }/*# sourceMappingURL=main.css.map */

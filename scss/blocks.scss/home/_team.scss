@@ -1,0 +1,57 @@
+.team{
+    padding: 60px 0;
+
+    h2{
+        font-family: 'Montserrat';
+font-size: 23px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color: #333333;
+text-transform: uppercase;
+    }
+    hr{
+        width: 80px;
+        height: 2px;
+        margin-left: 430px;
+        margin-top: 25px;
+        background-color: rgba(0, 0, 0, 0.09);
+        border: none;
+    }
+.card{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .box{
+        width: 240px;
+
+        h3{
+            font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #333333;
+text-transform: uppercase;
+margin-top: 20px;
+        }
+        p{
+            font-family: 'Vollkorn';
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #333333;
+margin-top: 8px;
+        }
+        .icon{
+            margin-top: 10px;
+        }
+    }
+}
+}

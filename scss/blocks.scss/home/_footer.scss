@@ -1,0 +1,19 @@
+.footer--bg{
+    background-color: black;
+    padding: 60px 0;
+
+    .footer{
+        margin-left: 200px;
+        width: 564px;
+        .form{
+        display: flex;
+        flex-direction: column;
+        input{
+            width:564px;
+        }
+        img{
+            margin-left: 18px;
+        }
+      }
+    }
+}
